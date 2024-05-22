@@ -1,0 +1,17 @@
+.npfmaindiv{
+    height: 80vh;
+    width: 100%;
+    border:1px solid;
+background-image: url(../img/pexels-gabby-k-5874691.jpg);
+background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#errlable{
+    text-align: center;
+    margin: auto;
+    font-family: cursive;
+    font-size: medium;
+    color: black;
+}

@@ -1,0 +1,148 @@
+.whatwo {
+    background-color: #fff3bf;
+}
+
+.what-lable {
+    width: 90vw;
+    margin: auto;
+padding-top:3% ;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: cursive;
+    font-size: large;
+}
+
+#Event-discription {
+    width: 57%;
+    margin-left: 2%;
+overflow: hidden;
+}
+
+#Event-img {
+    width: 40%;
+}
+
+#event-title {
+    font-size: large;
+    margin: 0%;
+}
+
+#event-about {
+    font-size: smaller;
+    width: 95%;
+    margin: 0%;
+}
+
+#view-events {
+    font-size: medium;
+    margin-bottom: 2%;
+    background-color: #cea204;
+    border-radius: 1vh;
+
+
+}
+#evndate{
+    margin: 0%;
+    font-size: medium;
+}
+#venueadd{
+    margin: 0%;
+    font-size: medium;
+}
+
+
+@media (min-width:0px) and (max-width:480px) {
+    .what-lable {
+        width: 90vw;
+    }
+
+    #Event-discription {
+        width: 100%;
+        margin-left: 2%;
+
+    }
+
+    #Event-img {
+        width: 95%;
+        margin: auto;
+    }
+    #evndate{
+        font-size: medium;
+    }
+    #venueadd{
+        font-size: medium;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    
+.what-lable {
+font-size: larger;
+}
+
+#event-title {
+    font-size: larger;
+}
+
+#event-about {
+    font-size: large;
+}
+
+#view-events {
+    font-size: larger;
+}
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .what-lable {
+        font-size: larger;
+        }
+        
+        #event-title {
+            font-size: larger;
+        }
+        
+        #event-about {
+            font-size: larger;
+        }
+        
+        #view-events {
+            font-size: larger;
+        }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .what-lable {
+        font-size: larger;
+        }
+        
+        #event-title {
+            font-size: larger;
+        }
+        
+        #event-about {
+            font-size: larger;
+        }
+        
+        #view-events {
+            font-size: larger;
+        }
+}
+
+@media (min-width:1201px) {
+    .what-lable {
+        font-size: larger;
+        }
+        
+        #event-title {
+            font-size: larger;
+        }
+        
+        #event-about {
+            font-size: larger;
+        }
+        
+        #view-events {
+            font-size: larger;
+        }
+}

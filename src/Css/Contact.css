@@ -1,0 +1,69 @@
+.contact-comp{
+    background-color: #fff3bf;
+}
+.contactliks{
+  
+    width: 100%;
+    margin: auto;
+    padding-top: 3%;
+ text-align: center;
+}
+#atag{
+    width: 5%;
+    margin: 0% 2%;
+
+}
+a{
+    height: 0%;
+}
+.msgfild{
+    width: 70%;
+  
+    padding-top: 3%;
+    margin: auto;
+}
+#msg-lab{
+width: 100%;
+margin: 0%;
+}
+#txtarea{
+    width:99%;
+    height: 4vh;
+    margin: auto;
+}
+#txtarea2{
+    width: 99%;
+    height: 20vh;
+    margin-bottom: 1vh;
+    margin: auto;
+}
+.btndiv{
+    width: 100%;
+text-align: center;
+}
+#send-btn{
+    height: 100%;
+    width: 15%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 1px solid navy;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+#send-btn:hover{
+    color: black;
+   
+    background-color: beige;
+}
+@media (min-width:0px) and (max-width:480px) {
+    
+    #msg-lab{
+        font-size: smaller;
+        }
+        
+#send-btn{
+    height: 100%;
+    width: 30%;
+font-size: smaller;
+}
+  }

@@ -1,0 +1,20 @@
+.mainhead-cont{
+    width: 100%;
+    border: 1px solid gray;
+    background-image: url(../img/pexels-uriel-mont-6315170.jpg);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+color:#ffffff;
+font-family: cursive;
+}
+#Headerlab{
+    text-align: center;
+}
+#header-paragraph{
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2vh;
+}

@@ -1,0 +1,166 @@
+.Footer-main {
+    background-image: url(../img/Footer\ BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+display: flex;
+
+}
+
+.footer-about {
+    width: 33%;
+    word-wrap: break-word;
+    margin: auto;
+    text-align: center;
+}
+
+#footer-lab {
+    width: 90%;
+    margin: auto;
+    margin-left: 5%;
+}
+strong{color: #ea7dea;}
+#footer-compname {
+    width: 90%;
+    margin: auto;
+    margin-left: 5%;
+    font-size: smaller;
+}
+
+
+.footer-compex{
+    width: 100%;
+    display: flex;
+}
+
+#footer-follow{
+    margin: 0%;
+    text-align: center;
+}
+.socialmedia{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.footer-links{
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    margin: 2%;
+}
+
+/* Responsive Design */
+
+
+@media (min-width:0px) and (max-width:480px) {
+    .Footer-main {
+   flex-wrap: wrap;
+    
+    }
+    
+    .footer-about {
+        width: 90%;
+    }
+    
+    #footer-lab {
+        width: 90%;
+        padding-top: 4%;
+       
+    }
+    strong{color: #ea7dea;}
+    #footer-compname {
+       margin-top: 4%;
+    }
+    
+    
+    .footer-compex{
+        width: 100%;
+        display: flex;
+    }
+    
+    #footer-follow{
+        margin: 0%;
+        text-align: center;
+    }
+    .socialmedia{
+        
+        text-align: center;
+        margin: auto;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    .footer-links{
+        display: flex;
+    justify-content: center;
+        margin-top: 4%;
+    }
+    
+  }
+    
+  @media (min-width:481px) and (max-width:768px) {
+  
+    .Footer-main {
+        flex-wrap: wrap;
+         
+         }
+         
+         .footer-about {
+             width: 90%;
+             margin-top: 4%;
+         }
+         
+         #footer-lab {
+             width: 90%;
+             padding-top: 4%;
+            
+         }
+         strong{color: #ea7dea;}
+         #footer-compname {
+            margin-top: 4%;
+         }
+         
+         
+         .footer-compex{
+             width: 100%;
+           
+         }
+         
+         #footer-follow{
+             margin: 0%;
+             text-align: center;
+         }
+         .socialmedia{
+             
+             text-align: center;
+             margin: auto;
+             margin-top: 4%;
+             margin-bottom: 2%;
+         }
+         .footer-links{
+             
+         justify-content: center;
+           
+         }
+  
+  }
+  
+  @media (min-width:769px) and (max-width:1024px) {
+  
+  
+  
+  }
+  
+  @media (min-width:1025px) and (max-width:1200px) {
+  
+  
+  
+  }
+  
+  @media (min-width:1201px)  {
+  
+  
+  
+  }
+  
+  
+  

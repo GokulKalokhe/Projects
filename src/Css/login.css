@@ -1,0 +1,86 @@
+.form-div{
+   height: 70vh;
+    width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: rgb(255, 255, 168);
+}
+.login-comp{
+  
+    width: 50%;
+    
+color: black;
+background-image: url(../img/pexels-karolina-grabowska-4197559.jpg);
+background-size:100% 100%;
+    font-family: cursive;
+    margin: auto;
+}
+#formhead{
+    text-align: center;
+    margin: 0%;
+    
+}
+ .logforminpu{
+    width: 60%; 
+    margin-left: 20%; 
+    font-family: cursive;
+    margin-top: 2%;
+    background-color: transparent;
+ }
+#fildncomp{
+    width: 100%;
+
+}
+#lab{
+width: 100%;
+margin-left: 20%;
+}
+#formbtn{
+    text-align: center;
+    margin-top: 3%;
+  
+}
+#subbtn{
+    background-color: transparent;
+    margin: auto;
+    margin-bottom: 5%;
+    border: 1px solid rgb(0, 0, 0);
+}
+#err{
+    text-align: center;
+
+margin-bottom: 5%;}
+
+
+
+@media (min-width:0px) and (max-width:480px) {
+    .login-comp{
+  width: 90%;
+  
+    }
+    #formhead{
+        margin-top: 3%;
+    }
+  
+  }
+  
+  @media (min-width:769px) and (max-width:1024px) {
+  
+  
+  
+  }
+  
+  @media (min-width:1025px) and (max-width:1200px) {
+  
+  
+  
+  }
+  
+  @media (min-width:1201px)  {
+  
+  
+  
+  }
+  
+  

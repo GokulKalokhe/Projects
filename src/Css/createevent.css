@@ -1,0 +1,63 @@
+
+#createclss{
+    background-color:#fff3bf;
+}
+.creteeventcomp{
+    
+    width:80%;
+    margin: auto;
+    background-color: transparent;
+    font-family: cursive;
+   
+    text-align: center;
+}
+
+#createventlab{
+    color: mediumpurple;
+text-align: start;
+    font-size:large;
+    margin: 0%;
+    padding-top: 8%;
+    padding-left: 2%;
+}
+.cont{
+    margin-top: 1%;
+    width: 100%;
+}
+.cretetitle{
+  
+    color:purple;
+    width: 50%;
+    background-color: transparent;
+}
+.evnlable{
+    
+    color: mediumpurple;
+}
+#creevnbtn{
+    margin-top: 1%;
+    margin-bottom: 8%;
+    border: 1px solid navy;
+}
+#opt{
+    width: 50%;
+    background-color: transparent;
+}
+#creevnbtn:hover{
+    color: navy;
+border-radius: 10px  ;
+background-color: rgb(216, 199, 247);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

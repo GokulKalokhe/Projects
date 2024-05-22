@@ -1,0 +1,117 @@
+.main-navcomp{
+  background-color: transparent;
+  display: flex;
+ color: white;
+  /* border: 1px solid black; */
+  margin-top: 2%;
+  flex-wrap: wrap;
+}
+
+.linkcont{
+  width: 80%;
+  background-color: transparent;
+  /* border: 1px solid rgb(6, 67, 233); */
+  text-align: right;
+  
+
+}
+
+.nav-links{
+  color: white;
+text-align: right;
+margin: 0vw 2% ;
+text-decoration: none;
+
+}
+
+.nav-links:hover{
+  color: #ffe066;
+  text-decoration: underline;
+}
+
+
+.nav-links:active{
+  color: purple;
+  text-decoration: underline;
+}
+
+
+
+.buttoncont{
+  width: 20%;
+}
+#login-btn,#sign-btn{
+  width: 50%;
+  background-color:#cea204;
+border-radius: 11px;
+}
+button{border: 0px solid white;}
+button:hover{
+    color: #f4eac2;
+    background-color:rgb(251, 231, 251);
+    text-decoration: underline;
+    border: 1px solid navy;
+}
+
+
+
+@media (min-width:0px) and (max-width:480px) {
+  .linkcont{
+   width: 100%;
+    text-align: center;
+  
+  }
+
+  .nav-links{
+  margin: 0vw 2%;
+  font-size:large; 
+
+  }
+  .buttoncont{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #login-btn,#sign-btn{
+    width: 30%;
+  }
+  button{border: 0px solid white;}
+  button:hover{
+      color: #f4eac2;
+      background-color:rgb(251, 231, 251);
+      text-decoration: underline;
+      border: 1px solid navy;
+  }
+  
+}
+  
+@media (min-width:481px) and (max-width:768px) {
+  #login-btn,#sign-btn{
+    width: 50%;
+    font-size: x-small;
+  }
+  .nav-links{
+    font-size:x-small; 
+  }
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+
+
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+
+
+
+}
+
+@media (min-width:1201px)  {
+
+
+
+}
+
+
